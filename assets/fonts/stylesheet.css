@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Monday-Miracle-Alternate';
+    src: url('Monday-Miracle-Alternate.woff2') format('woff2'),
+        url('Monday-Miracle-Alternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
