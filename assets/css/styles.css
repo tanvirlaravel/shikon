@@ -1,22 +1,30 @@
-@font-face {
-  font-family: "Monday-Miracle-Alternate";
-  src: url("../fonts/Monday-Miracle-Alternate.woff2") format("woff2"),
-    url("../fonts/Monday-Miracle-Alternate.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Monday-Miracle-Alternate", cursive;
-  font-weight: normal;
+.menu{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.my-heading {
-  /* color: yellow; */
-  border: 4px solid red;
+.menu li{
+  margin-right: 20px;
+}
+
+.menu li a {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.row{
+  display: flex;
+}
+.column{
+  padding-left: 10px;
+  padding-right: 10px;
 }
